@@ -49,6 +49,10 @@
                 font-size: 84px;
             }
 
+            .subtitle {
+                font-size: 32px;
+            }
+
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
@@ -57,6 +61,10 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+            }
+
+            .m-b-sm {
+                margin-bottom: 10px;
             }
 
             .m-b-md {
@@ -78,16 +86,16 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="title m-b-sm">
+                    Glitter
+                </div>
+
+                <div class="subtitle m-b-md">
+                    for Laravel
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/highday/glitter">GitHub</a>
                 </div>
             </div>
         </div>
