@@ -166,7 +166,7 @@ return [
         /*
          * Package Service Providers...
          */
-        Highday\Glitter\Infrastructures\Providers\AdminServiceProvider::class,
+        Highday\Glitter\Infrastructure\Providers\AdminServiceProvider::class,
 
         /*
          * Application Service Providers...
