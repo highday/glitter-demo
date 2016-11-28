@@ -7,7 +7,10 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../glitter"
+            "url": "../glitter",
+            "options": {
+                "symlink": true
+            }
         }
     ],
     "require": {
