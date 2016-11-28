@@ -1,5 +1,10 @@
 /node_modules
 /public/storage
+/public/js
+/public/css
+/public/fonts
+/resources/assets/js/glitter
+/resources/assets/sass/glitter
 /storage/*.key
 /vendor
 /.idea

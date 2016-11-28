@@ -14,6 +14,13 @@ require('laravel-elixir-vue-2');
  */
 
 elixir((mix) => {
-    mix.sass('app.scss')
-       .webpack('app.js');
+    mix.copy('vendor/highday/glitter/resources/assets/sass', 'resources/assets/sass/glitter')
+       .copy('vendor/highday/glitter/resources/assets/js', 'resources/assets/js/glitter')
+       .copy('node_modules/font-awesome/fonts', 'public/fonts')
+       .sass('glitter/admin/glitter-admin.scss')
+       .webpack('glitter/admin/glitter-admin.js');
+
+   mix.browserSync({
+        proxy: 'glitter.dev'
+    });
 });
