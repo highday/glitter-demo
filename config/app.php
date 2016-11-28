@@ -166,6 +166,8 @@ return [
         /*
          * Package Service Providers...
          */
+        Barryvdh\Debugbar\ServiceProvider::class,
+        Highday\Glitter\Infrastructure\Providers\GlitterServiceProvider::class,
         Highday\Glitter\Infrastructure\Providers\AdminServiceProvider::class,
 
         /*
