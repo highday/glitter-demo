@@ -167,8 +167,8 @@ return [
          * Package Service Providers...
          */
         Barryvdh\Debugbar\ServiceProvider::class,
-        Highday\Glitter\Infrastructure\Providers\GlitterServiceProvider::class,
-        Highday\Glitter\Infrastructure\Providers\AdminServiceProvider::class,
+        Highday\Glitter\Laravel\Providers\GlitterServiceProvider::class,
+        Highday\Glitter\Laravel\Providers\AdminServiceProvider::class,
 
         /*
          * Application Service Providers...
