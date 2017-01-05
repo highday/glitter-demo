@@ -1,5 +1,6 @@
 ```
-$ docker-composer up -d
+$ docker-compose bnuild
+$ docker-compose up -d
 $ cp .evn.docker .env
 $ docker exec -it glitterdemo_php_1 composer update
 $ docker exec -it glitterdemo_php_1 php artisan key:generate
