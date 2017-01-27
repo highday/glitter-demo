@@ -12,7 +12,7 @@ const { mix } = require('laravel-mix');
  */
 
 mix.copy('node_modules/font-awesome/fonts', 'public/fonts')
-   .copy('vendor/highday/glitter/resources/assets/js/admin', 'resources/assets/js/glitter/admin')
-   .copy('vendor/highday/glitter/resources/assets/sass/admin', 'resources/assets/sass/glitter/admin')
+   .copy('vendor/highday/glitter/resources/assets/js', 'resources/assets/js/glitter', false)
+   .copy('vendor/highday/glitter/resources/assets/sass', 'resources/assets/sass/glitter', false)
    .js('resources/assets/js/glitter/admin/glitter-admin.js', 'public/js')
    .sass('resources/assets/sass/glitter/admin/glitter-admin.scss', 'public/css');
