@@ -145,7 +145,7 @@
                 </div>
 
                 <div class="subtitle m-b-md">
-                    Trading management architecture for <a class="laravel" href="https://laravel.com/" target="_blank">Laravel</a>.
+                    Commerce management system for <a class="laravel" href="https://laravel.com/" target="_blank">Laravel</a>.
                 </div>
 
                 <div class="buttons">
