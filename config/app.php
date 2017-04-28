@@ -169,7 +169,7 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         Highday\Glitter\Providers\GlitterServiceProvider::class,
-        Highday\Glitter\Providers\AdminServiceProvider::class,
+        Highday\Glitter\Providers\OfficeServiceProvider::class,
 
         /*
          * Application Service Providers...

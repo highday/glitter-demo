@@ -16,7 +16,7 @@ mix.copy('node_modules/font-awesome/fonts', 'public/fonts')
    .copy('vendor/highday/glitter/resources/assets/js', 'resources/assets/js/glitter', false)
    .copy('vendor/highday/glitter/resources/assets/sass', 'resources/assets/sass/glitter', false);
 
-mix.js('resources/assets/js/glitter/admin/glitter-admin.js', 'public/js')
-   .sass('resources/assets/sass/glitter/admin/glitter-admin.scss', 'public/css');
+mix.js('resources/assets/js/glitter/office/glitter-admin.js', 'public/js')
+   .sass('resources/assets/sass/glitter/office/glitter-office.scss', 'public/css');
 
-mix.sass('resources/assets/sass/glitter/admin/glitter-guest.scss', 'public/css');
+mix.sass('resources/assets/sass/glitter/office/glitter-guest.scss', 'public/css');
