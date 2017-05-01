@@ -8,7 +8,7 @@
         <title>Glitter</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Martel+Sans:700" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Source+Sans+Pro:200,400,700,600,400italic,700italic' rel='stylesheet' type='text/css'>
 
         <!-- Styles -->
@@ -46,7 +46,7 @@
             }
 
             .title {
-                font-family: 'Allura', sans-serif;
+                font-family: 'Martel Sans', sans-serif;
                 font-size: 84px;
             }
 
@@ -81,7 +81,7 @@
 
             .admin-name > a {
                 color: #eee;
-                font-family: 'Allura', sans-serif;
+                font-family: 'Martel Sans', sans-serif;
                 font-size: 24px;
                 line-height: 2rem;
                 letter-spacing: .1rem;
@@ -145,7 +145,7 @@
                 </div>
 
                 <div class="subtitle m-b-md">
-                    Trading management architecture for <a class="laravel" href="https://laravel.com/" target="_blank">Laravel</a>.
+                    Commerce management system for <a class="laravel" href="https://laravel.com/" target="_blank">Laravel</a>.
                 </div>
 
                 <div class="buttons">
@@ -153,7 +153,7 @@
                 </div>
 
                 <div class="admin m-b-md">
-                    <div class="admin-name"><a href="{{ url('/admin') }}">Glitter Admin</a></div>
+                    <div class="admin-name"><a href="{{ url('/office') }}">BackOffice</a></div>
                     <dl class="admin-note">
                         <dt>E-Mail:</dt>
                         <dd>member@example.com</dd>
