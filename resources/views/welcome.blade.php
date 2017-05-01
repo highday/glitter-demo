@@ -153,7 +153,7 @@
                 </div>
 
                 <div class="admin m-b-md">
-                    <div class="admin-name"><a href="{{ url('/admin') }}">Admin</a></div>
+                    <div class="admin-name"><a href="{{ url('/office') }}">BackOffice</a></div>
                     <dl class="admin-note">
                         <dt>E-Mail:</dt>
                         <dd>member@example.com</dd>

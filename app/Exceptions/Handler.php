@@ -61,7 +61,7 @@ class Handler extends ExceptionHandler
         }
 
         if (in_array('member', $exception->guards())) {
-            return redirect()->guest('admin/login');
+            return redirect()->guest('office/login');
         }
 
         return redirect()->guest('login');
