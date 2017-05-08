@@ -11,12 +11,14 @@ const { mix } = require('laravel-mix');
  |
  */
 
-mix.copy('node_modules/font-awesome/fonts', 'public/fonts')
-   .copy('vendor/highday/glitter/resources/assets/img', 'public/img/glitter', false)
-   .copy('vendor/highday/glitter/resources/assets/js', 'resources/assets/js/glitter', false)
-   .copy('vendor/highday/glitter/resources/assets/sass', 'resources/assets/sass/glitter', false);
+mix.copy('vendor/highday/glitter/dist', 'public/glitter-assets', false);
 
-mix.js('resources/assets/js/glitter/office/glitter-admin.js', 'public/js')
-   .sass('resources/assets/sass/glitter/office/glitter-office.scss', 'public/css');
+// mix.copy('node_modules/font-awesome/fonts', 'public/fonts')
+//    .copy('vendor/highday/glitter/resources/assets/img', 'public/img/glitter', false)
+//    .copy('vendor/highday/glitter/resources/assets/js', 'resources/assets/js/glitter', false)
+//    .copy('vendor/highday/glitter/resources/assets/sass', 'resources/assets/sass/glitter', false);
 
-mix.sass('resources/assets/sass/glitter/office/glitter-guest.scss', 'public/css');
+// mix.js('resources/assets/js/glitter/office/glitter-admin.js', 'public/js')
+//    .sass('resources/assets/sass/glitter/office/glitter-office.scss', 'public/css');
+
+// mix.sass('resources/assets/sass/glitter/office/glitter-guest.scss', 'public/css');
