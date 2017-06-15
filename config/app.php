@@ -170,6 +170,7 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         Glitter\Providers\GlitterServiceProvider::class,
         Glitter\Providers\OfficeServiceProvider::class,
+        Glitter\Providers\EventServiceProvider::class,
 
         /*
          * Application Service Providers...
